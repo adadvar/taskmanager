@@ -1,0 +1,43 @@
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./eot/dana-fanum-light.eot');
+  src: url('./eot/dana-fanum-light.eot?#iefix') format('embedded-opentype'),
+    url('./woff2/dana-fanum-light.woff2') format('woff2'),
+    url('./woff/dana-fanum-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./eot/dana-fanum-medium.eot');
+  src: url('./eot/dana-fanum-medium.eot?#iefix') format('embedded-opentype'),
+    url('./woff2/dana-fanum-medium.woff2') format('woff2'),
+    url('./woff/dana-fanum-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url('./eot/dana-fanum-bold.eot');
+  src: url('./eot/dana-fanum-bold.eot?#iefix') format('embedded-opentype'),
+    url('./woff2/dana-fanum-bold.woff2') format('woff2'),
+    url('./woff/dana-fanum-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: dana;
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('./eot/dana-fanum-regular.eot');
+  src: url('./eot/dana-fanum-regular.eot?#iefix') format('embedded-opentype'),
+    url('./woff2/dana-fanum-regular.woff2') format('woff2'),
+    url('./woff/dana-fanum-regular.woff') format('woff');
+}
