@@ -21,7 +21,7 @@ const Login = () => {
         (state) => state.auth
     );
 
-    useEffect(() => {
+/*     useEffect(() => {
         fetch('/auth/google', {
             headers : {
                 'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ const Login = () => {
             })
             .then((data) => setLoginUrl( data.url ))
             .catch((error) => console.error(error));
-    }, []);
+    }, []); */
 
     useEffect(() => {
         if (isError) {
@@ -106,14 +106,14 @@ const Login = () => {
                         </button>
                     </div>
                 </form>
-                <div className="form-group">
+                {/* <div className="form-group">
                     <a
                         className="btn btn-block"
                         href={loginUrl}
                     >
                         ورود با گوگل
                     </a>
-                </div>
+                </div> */}
             </section>
         </>
     );

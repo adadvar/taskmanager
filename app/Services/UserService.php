@@ -61,7 +61,6 @@ class UserService extends BaseService
                 'avatar' => $googleUser->avatar,
                 'verified_at' => now(),
             ]);
-            Auth::login($user);
             $response = UserService::login($user->email, $user->email);
 
             return response($response, 200);

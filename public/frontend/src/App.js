@@ -1,6 +1,3 @@
-// eslint-disable-next-line strict
-"use strict";
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
@@ -21,7 +18,7 @@ function App() {
           <Header />
           <Routes>
             <Route path='/' element={<Dashboard />} />
-            <Route path="/auth/google" element={<GoogleCallback />}></Route>
+            <Route path="/auth/google" element={<GoogleCallback />} />
             <Route path='/login' element={<Login />} />
             <Route path='/register' element={<Register />} />
             <Route path='/update-user' element={<UpdateUser />} />
